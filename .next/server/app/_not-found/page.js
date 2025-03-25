@@ -12,6 +12,27 @@ exports.id = "app/_not-found/page";
 exports.ids = ["app/_not-found/page"];
 exports.modules = {
 
+<<<<<<< Updated upstream
+=======
+/***/ "(rsc)/./node_modules/@opentelemetry/instrumentation/build/esm/platform/node sync recursive":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@opentelemetry/instrumentation/build/esm/platform/node/ sync ***!
+  \***********************************************************************************/
+/***/ ((module) => {
+
+function webpackEmptyContext(req) {
+	var e = new Error("Cannot find module '" + req + "'");
+	e.code = 'MODULE_NOT_FOUND';
+	throw e;
+}
+webpackEmptyContext.keys = () => ([]);
+webpackEmptyContext.resolve = webpackEmptyContext;
+webpackEmptyContext.id = "(rsc)/./node_modules/@opentelemetry/instrumentation/build/esm/platform/node sync recursive";
+module.exports = webpackEmptyContext;
+
+/***/ }),
+
+>>>>>>> Stashed changes
 /***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
@@ -19,7 +40,11 @@ exports.modules = {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+<<<<<<< Updated upstream
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GlobalError: () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default.a),\n/* harmony export */   __next_app__: () => (/* binding */ __next_app__),\n/* harmony export */   pages: () => (/* binding */ pages),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   tree: () => (/* binding */ tree)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/route-modules/app-page/module.compiled */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/module.compiled.js?cc4a\");\n/* harmony import */ var next_dist_server_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/route-kind */ \"(rsc)/./node_modules/next/dist/server/route-kind.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/client/components/error-boundary */ \"(rsc)/./node_modules/next/dist/client/components/error-boundary.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dist/server/app-render/entry-base */ \"(rsc)/./node_modules/next/dist/server/app-render/entry-base.js\");\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if([\"default\",\"tree\",\"pages\",\"GlobalError\",\"__next_app__\",\"routeModule\"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\nconst notFound0 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/not-found-error */ \"(rsc)/./node_modules/next/dist/client/components/not-found-error.js\", 23));\nconst module1 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/layout.tsx */ \"(rsc)/./src/app/layout.tsx\"));\nconst module2 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/not-found-error */ \"(rsc)/./node_modules/next/dist/client/components/not-found-error.js\", 23));\nconst module3 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/forbidden-error */ \"(rsc)/./node_modules/next/dist/client/components/forbidden-error.js\", 23));\nconst module4 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/unauthorized-error */ \"(rsc)/./node_modules/next/dist/client/components/unauthorized-error.js\", 23));\n\n\n// We inject the tree and pages here so that we can use them in the route\n// module.\nconst tree = {\n        children: [\n        '',\n        {\n          children: [\"/_not-found\", {\n            children: ['__PAGE__', {}, {\n              page: [\n                notFound0,\n                \"next/dist/client/components/not-found-error\"\n              ]\n            }]\n          }, {}]\n        },\n        {\n        'layout': [module1, \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/layout.tsx\"],\n'not-found': [module2, \"next/dist/client/components/not-found-error\"],\n'forbidden': [module3, \"next/dist/client/components/forbidden-error\"],\n'unauthorized': [module4, \"next/dist/client/components/unauthorized-error\"],\n        \n      }\n      ]\n      }.children;\nconst pages = [];\n\n\nconst __next_app_require__ = __webpack_require__\nconst __next_app_load_chunk__ = () => Promise.resolve()\nconst __next_app__ = {\n    require: __next_app_require__,\n    loadChunk: __next_app_load_chunk__\n};\n\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppPageRouteModule({\n    definition: {\n        kind: next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,\n        page: \"/_not-found/page\",\n        pathname: \"/_not-found\",\n        // The following aren't used in production.\n        bundlePath: '',\n        filename: '',\n        appPaths: []\n    },\n    userland: {\n        loaderTree: tree\n    }\n});\n\n//# sourceMappingURL=app-page.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIvaW5kZXguanM/bmFtZT1hcHAlMkZfbm90LWZvdW5kJTJGcGFnZSZwYWdlPSUyRl9ub3QtZm91bmQlMkZwYWdlJmFwcFBhdGhzPSZwYWdlUGF0aD0uLiUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZkaXN0JTJGY2xpZW50JTJGY29tcG9uZW50cyUyRm5vdC1mb3VuZC1lcnJvci5qcyZhcHBEaXI9JTJGVXNlcnMlMkZ1bWVyYmFqd2ElMkZEb2N1bWVudHMlMkZHaXRIdWIlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRmNvbXB1dGVyLXJlcGFpci1zaG9wJTJGc3JjJTJGYXBwJnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMmcm9vdERpcj0lMkZVc2VycyUyRnVtZXJiYWp3YSUyRkRvY3VtZW50cyUyRkdpdEh1YiUyRmNvbXB1dGVyLXJlcGFpci1zaG9wJTJGY29tcHV0ZXItcmVwYWlyLXNob3AmaXNEZXY9dHJ1ZSZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvbiZiYXNlUGF0aD0mYXNzZXRQcmVmaXg9Jm5leHRDb25maWdPdXRwdXQ9JnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLHdCQUF3QiwwTkFBZ0Y7QUFDeEcsc0JBQXNCLG9KQUFtSTtBQUN6SixzQkFBc0IsME5BQWdGO0FBQ3RHLHNCQUFzQiwwTkFBZ0Y7QUFDdEcsc0JBQXNCLGdPQUFtRjtBQUd2RztBQUdBO0FBQ0Y7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxxQ0FBcUM7QUFDckM7QUFDQTtBQUNBO0FBQ0E7QUFDQSxhQUFhO0FBQ2IsV0FBVyxJQUFJO0FBQ2YsU0FBUztBQUNUO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxPQUFPO0FBQ1A7QUFDdUI7QUFHckI7QUFDRiw2QkFBNkIsbUJBQW1CO0FBQ2hEO0FBQ087QUFDUDtBQUNBO0FBQ0E7QUFHRTtBQUNGO0FBQ08sd0JBQXdCLHVHQUFrQjtBQUNqRDtBQUNBLGNBQWMsa0VBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMO0FBQ0E7QUFDQTtBQUNBLENBQUM7O0FBRUQiLCJzb3VyY2VzIjpbIiJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBub3RGb3VuZDAgPSAoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIik7XG5jb25zdCBtb2R1bGUxID0gKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvdW1lcmJhandhL0RvY3VtZW50cy9HaXRIdWIvY29tcHV0ZXItcmVwYWlyLXNob3AvY29tcHV0ZXItcmVwYWlyLXNob3Avc3JjL2FwcC9sYXlvdXQudHN4XCIpO1xuY29uc3QgbW9kdWxlMiA9ICgpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL25vdC1mb3VuZC1lcnJvclwiKTtcbmNvbnN0IG1vZHVsZTMgPSAoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9mb3JiaWRkZW4tZXJyb3JcIik7XG5jb25zdCBtb2R1bGU0ID0gKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvdW5hdXRob3JpemVkLWVycm9yXCIpO1xuaW1wb3J0IHsgQXBwUGFnZVJvdXRlTW9kdWxlIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvcm91dGUtbW9kdWxlcy9hcHAtcGFnZS9tb2R1bGUuY29tcGlsZWRcIiB3aXRoIHtcbiAgICAndHVyYm9wYWNrLXRyYW5zaXRpb24nOiAnbmV4dC1zc3InXG59O1xuaW1wb3J0IHsgUm91dGVLaW5kIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvcm91dGUta2luZFwiIHdpdGgge1xuICAgICd0dXJib3BhY2stdHJhbnNpdGlvbic6ICduZXh0LXNlcnZlci11dGlsaXR5J1xufTtcbi8vIFdlIGluamVjdCB0aGUgdHJlZSBhbmQgcGFnZXMgaGVyZSBzbyB0aGF0IHdlIGNhbiB1c2UgdGhlbSBpbiB0aGUgcm91dGVcbi8vIG1vZHVsZS5cbmNvbnN0IHRyZWUgPSB7XG4gICAgICAgIGNoaWxkcmVuOiBbXG4gICAgICAgICcnLFxuICAgICAgICB7XG4gICAgICAgICAgY2hpbGRyZW46IFtcIi9fbm90LWZvdW5kXCIsIHtcbiAgICAgICAgICAgIGNoaWxkcmVuOiBbJ19fUEFHRV9fJywge30sIHtcbiAgICAgICAgICAgICAgcGFnZTogW1xuICAgICAgICAgICAgICAgIG5vdEZvdW5kMCxcbiAgICAgICAgICAgICAgICBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIlxuICAgICAgICAgICAgICBdXG4gICAgICAgICAgICB9XVxuICAgICAgICAgIH0sIHt9XVxuICAgICAgICB9LFxuICAgICAgICB7XG4gICAgICAgICdsYXlvdXQnOiBbbW9kdWxlMSwgXCIvVXNlcnMvdW1lcmJhandhL0RvY3VtZW50cy9HaXRIdWIvY29tcHV0ZXItcmVwYWlyLXNob3AvY29tcHV0ZXItcmVwYWlyLXNob3Avc3JjL2FwcC9sYXlvdXQudHN4XCJdLFxuJ25vdC1mb3VuZCc6IFttb2R1bGUyLCBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIl0sXG4nZm9yYmlkZGVuJzogW21vZHVsZTMsIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL2ZvcmJpZGRlbi1lcnJvclwiXSxcbid1bmF1dGhvcml6ZWQnOiBbbW9kdWxlNCwgXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvdW5hdXRob3JpemVkLWVycm9yXCJdLFxuICAgICAgICBcbiAgICAgIH1cbiAgICAgIF1cbiAgICAgIH0uY2hpbGRyZW47XG5jb25zdCBwYWdlcyA9IFtdO1xuZXhwb3J0IHsgdHJlZSwgcGFnZXMgfTtcbmV4cG9ydCB7IGRlZmF1bHQgYXMgR2xvYmFsRXJyb3IgfSBmcm9tIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL2Vycm9yLWJvdW5kYXJ5XCIgd2l0aCB7XG4gICAgJ3R1cmJvcGFjay10cmFuc2l0aW9uJzogJ25leHQtc2VydmVyLXV0aWxpdHknXG59O1xuY29uc3QgX19uZXh0X2FwcF9yZXF1aXJlX18gPSBfX3dlYnBhY2tfcmVxdWlyZV9fXG5jb25zdCBfX25leHRfYXBwX2xvYWRfY2h1bmtfXyA9ICgpID0+IFByb21pc2UucmVzb2x2ZSgpXG5leHBvcnQgY29uc3QgX19uZXh0X2FwcF9fID0ge1xuICAgIHJlcXVpcmU6IF9fbmV4dF9hcHBfcmVxdWlyZV9fLFxuICAgIGxvYWRDaHVuazogX19uZXh0X2FwcF9sb2FkX2NodW5rX19cbn07XG5leHBvcnQgKiBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9hcHAtcmVuZGVyL2VudHJ5LWJhc2VcIiB3aXRoIHtcbiAgICAndHVyYm9wYWNrLXRyYW5zaXRpb24nOiAnbmV4dC1zZXJ2ZXItdXRpbGl0eSdcbn07XG4vLyBDcmVhdGUgYW5kIGV4cG9ydCB0aGUgcm91dGUgbW9kdWxlIHRoYXQgd2lsbCBiZSBjb25zdW1lZC5cbmV4cG9ydCBjb25zdCByb3V0ZU1vZHVsZSA9IG5ldyBBcHBQYWdlUm91dGVNb2R1bGUoe1xuICAgIGRlZmluaXRpb246IHtcbiAgICAgICAga2luZDogUm91dGVLaW5kLkFQUF9QQUdFLFxuICAgICAgICBwYWdlOiBcIi9fbm90LWZvdW5kL3BhZ2VcIixcbiAgICAgICAgcGF0aG5hbWU6IFwiL19ub3QtZm91bmRcIixcbiAgICAgICAgLy8gVGhlIGZvbGxvd2luZyBhcmVuJ3QgdXNlZCBpbiBwcm9kdWN0aW9uLlxuICAgICAgICBidW5kbGVQYXRoOiAnJyxcbiAgICAgICAgZmlsZW5hbWU6ICcnLFxuICAgICAgICBhcHBQYXRoczogW11cbiAgICB9LFxuICAgIHVzZXJsYW5kOiB7XG4gICAgICAgIGxvYWRlclRyZWU6IHRyZWVcbiAgICB9XG59KTtcblxuLy8jIHNvdXJjZU1hcHBpbmdVUkw9YXBwLXBhZ2UuanMubWFwIl0sIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GlobalError: () => (/* reexport safe */ _Users_umerbajwa_Documents_GitHub_computer_repair_shop_computer_repair_shop_src_app_global_error_tsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   __next_app__: () => (/* binding */ __next_app__),\n/* harmony export */   pages: () => (/* binding */ pages),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   tree: () => (/* binding */ tree)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/route-modules/app-page/module.compiled */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/module.compiled.js?2eb7\");\n/* harmony import */ var next_dist_server_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/route-kind */ \"(rsc)/./node_modules/next/dist/server/route-kind.js\");\n/* harmony import */ var _Users_umerbajwa_Documents_GitHub_computer_repair_shop_computer_repair_shop_src_app_global_error_tsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/app/global-error.tsx */ \"(rsc)/./src/app/global-error.tsx\");\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dist/server/app-render/entry-base */ \"(rsc)/./node_modules/next/dist/server/app-render/entry-base.js\");\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if([\"default\",\"tree\",\"pages\",\"GlobalError\",\"__next_app__\",\"routeModule\"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\nconst notFound0 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/not-found-error */ \"(rsc)/./node_modules/next/dist/client/components/not-found-error.js\", 23));\nconst module1 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/layout.tsx */ \"(rsc)/./src/app/layout.tsx\"));\nconst module2 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/global-error.tsx */ \"(rsc)/./src/app/global-error.tsx\"));\nconst module3 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/not-found-error */ \"(rsc)/./node_modules/next/dist/client/components/not-found-error.js\", 23));\nconst module4 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/forbidden-error */ \"(rsc)/./node_modules/next/dist/client/components/forbidden-error.js\", 23));\nconst module5 = () => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/unauthorized-error */ \"(rsc)/./node_modules/next/dist/client/components/unauthorized-error.js\", 23));\n\n\n// We inject the tree and pages here so that we can use them in the route\n// module.\nconst tree = {\n        children: [\n        '',\n        {\n          children: [\"/_not-found\", {\n            children: ['__PAGE__', {}, {\n              page: [\n                notFound0,\n                \"next/dist/client/components/not-found-error\"\n              ]\n            }]\n          }, {}]\n        },\n        {\n        'layout': [module1, \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/layout.tsx\"],\n'global-error': [module2, \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/global-error.tsx\"],\n'not-found': [module3, \"next/dist/client/components/not-found-error\"],\n'forbidden': [module4, \"next/dist/client/components/forbidden-error\"],\n'unauthorized': [module5, \"next/dist/client/components/unauthorized-error\"],\n        \n      }\n      ]\n      }.children;\nconst pages = [];\n\n\nconst __next_app_require__ = __webpack_require__\nconst __next_app_load_chunk__ = () => Promise.resolve()\nconst __next_app__ = {\n    require: __next_app_require__,\n    loadChunk: __next_app_load_chunk__\n};\n\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppPageRouteModule({\n    definition: {\n        kind: next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,\n        page: \"/_not-found/page\",\n        pathname: \"/_not-found\",\n        // The following aren't used in production.\n        bundlePath: '',\n        filename: '',\n        appPaths: []\n    },\n    userland: {\n        loaderTree: tree\n    }\n});\n\n//# sourceMappingURL=app-page.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIvaW5kZXguanM/bmFtZT1hcHAlMkZfbm90LWZvdW5kJTJGcGFnZSZwYWdlPSUyRl9ub3QtZm91bmQlMkZwYWdlJmFwcFBhdGhzPSZwYWdlUGF0aD0uLiUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZkaXN0JTJGY2xpZW50JTJGY29tcG9uZW50cyUyRm5vdC1mb3VuZC1lcnJvci5qcyZhcHBEaXI9JTJGVXNlcnMlMkZ1bWVyYmFqd2ElMkZEb2N1bWVudHMlMkZHaXRIdWIlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRmNvbXB1dGVyLXJlcGFpci1zaG9wJTJGc3JjJTJGYXBwJnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMmcm9vdERpcj0lMkZVc2VycyUyRnVtZXJiYWp3YSUyRkRvY3VtZW50cyUyRkdpdEh1YiUyRmNvbXB1dGVyLXJlcGFpci1zaG9wJTJGY29tcHV0ZXItcmVwYWlyLXNob3AmaXNEZXY9dHJ1ZSZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvbiZiYXNlUGF0aD0mYXNzZXRQcmVmaXg9Jm5leHRDb25maWdPdXRwdXQ9JnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsd0JBQXdCLDBOQUFnRjtBQUN4RyxzQkFBc0Isb0pBQW1JO0FBQ3pKLHNCQUFzQixnS0FBeUk7QUFDL0osc0JBQXNCLDBOQUFnRjtBQUN0RyxzQkFBc0IsME5BQWdGO0FBQ3RHLHNCQUFzQixnT0FBbUY7QUFHdkc7QUFHQTtBQUNGO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EscUNBQXFDO0FBQ3JDO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsYUFBYTtBQUNiLFdBQVcsSUFBSTtBQUNmLFNBQVM7QUFDVDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxPQUFPO0FBQ1A7QUFDdUI7QUFHckI7QUFDRiw2QkFBNkIsbUJBQW1CO0FBQ2hEO0FBQ087QUFDUDtBQUNBO0FBQ0E7QUFHRTtBQUNGO0FBQ08sd0JBQXdCLHVHQUFrQjtBQUNqRDtBQUNBLGNBQWMsa0VBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMO0FBQ0E7QUFDQTtBQUNBLENBQUM7O0FBRUQiLCJzb3VyY2VzIjpbIiJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBub3RGb3VuZDAgPSAoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIik7XG5jb25zdCBtb2R1bGUxID0gKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvdW1lcmJhandhL0RvY3VtZW50cy9HaXRIdWIvY29tcHV0ZXItcmVwYWlyLXNob3AvY29tcHV0ZXItcmVwYWlyLXNob3Avc3JjL2FwcC9sYXlvdXQudHN4XCIpO1xuY29uc3QgbW9kdWxlMiA9ICgpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3VtZXJiYWp3YS9Eb2N1bWVudHMvR2l0SHViL2NvbXB1dGVyLXJlcGFpci1zaG9wL2NvbXB1dGVyLXJlcGFpci1zaG9wL3NyYy9hcHAvZ2xvYmFsLWVycm9yLnRzeFwiKTtcbmNvbnN0IG1vZHVsZTMgPSAoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIik7XG5jb25zdCBtb2R1bGU0ID0gKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvZm9yYmlkZGVuLWVycm9yXCIpO1xuY29uc3QgbW9kdWxlNSA9ICgpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL3VuYXV0aG9yaXplZC1lcnJvclwiKTtcbmltcG9ydCB7IEFwcFBhZ2VSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL3JvdXRlLW1vZHVsZXMvYXBwLXBhZ2UvbW9kdWxlLmNvbXBpbGVkXCIgd2l0aCB7XG4gICAgJ3R1cmJvcGFjay10cmFuc2l0aW9uJzogJ25leHQtc3NyJ1xufTtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL3JvdXRlLWtpbmRcIiB3aXRoIHtcbiAgICAndHVyYm9wYWNrLXRyYW5zaXRpb24nOiAnbmV4dC1zZXJ2ZXItdXRpbGl0eSdcbn07XG4vLyBXZSBpbmplY3QgdGhlIHRyZWUgYW5kIHBhZ2VzIGhlcmUgc28gdGhhdCB3ZSBjYW4gdXNlIHRoZW0gaW4gdGhlIHJvdXRlXG4vLyBtb2R1bGUuXG5jb25zdCB0cmVlID0ge1xuICAgICAgICBjaGlsZHJlbjogW1xuICAgICAgICAnJyxcbiAgICAgICAge1xuICAgICAgICAgIGNoaWxkcmVuOiBbXCIvX25vdC1mb3VuZFwiLCB7XG4gICAgICAgICAgICBjaGlsZHJlbjogWydfX1BBR0VfXycsIHt9LCB7XG4gICAgICAgICAgICAgIHBhZ2U6IFtcbiAgICAgICAgICAgICAgICBub3RGb3VuZDAsXG4gICAgICAgICAgICAgICAgXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvbm90LWZvdW5kLWVycm9yXCJcbiAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgfV1cbiAgICAgICAgICB9LCB7fV1cbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAnbGF5b3V0JzogW21vZHVsZTEsIFwiL1VzZXJzL3VtZXJiYWp3YS9Eb2N1bWVudHMvR2l0SHViL2NvbXB1dGVyLXJlcGFpci1zaG9wL2NvbXB1dGVyLXJlcGFpci1zaG9wL3NyYy9hcHAvbGF5b3V0LnRzeFwiXSxcbidnbG9iYWwtZXJyb3InOiBbbW9kdWxlMiwgXCIvVXNlcnMvdW1lcmJhandhL0RvY3VtZW50cy9HaXRIdWIvY29tcHV0ZXItcmVwYWlyLXNob3AvY29tcHV0ZXItcmVwYWlyLXNob3Avc3JjL2FwcC9nbG9iYWwtZXJyb3IudHN4XCJdLFxuJ25vdC1mb3VuZCc6IFttb2R1bGUzLCBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIl0sXG4nZm9yYmlkZGVuJzogW21vZHVsZTQsIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL2ZvcmJpZGRlbi1lcnJvclwiXSxcbid1bmF1dGhvcml6ZWQnOiBbbW9kdWxlNSwgXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvdW5hdXRob3JpemVkLWVycm9yXCJdLFxuICAgICAgICBcbiAgICAgIH1cbiAgICAgIF1cbiAgICAgIH0uY2hpbGRyZW47XG5jb25zdCBwYWdlcyA9IFtdO1xuZXhwb3J0IHsgdHJlZSwgcGFnZXMgfTtcbmV4cG9ydCB7IGRlZmF1bHQgYXMgR2xvYmFsRXJyb3IgfSBmcm9tIFwiL1VzZXJzL3VtZXJiYWp3YS9Eb2N1bWVudHMvR2l0SHViL2NvbXB1dGVyLXJlcGFpci1zaG9wL2NvbXB1dGVyLXJlcGFpci1zaG9wL3NyYy9hcHAvZ2xvYmFsLWVycm9yLnRzeFwiIHdpdGgge1xuICAgICd0dXJib3BhY2stdHJhbnNpdGlvbic6ICduZXh0LXNlcnZlci11dGlsaXR5J1xufTtcbmNvbnN0IF9fbmV4dF9hcHBfcmVxdWlyZV9fID0gX193ZWJwYWNrX3JlcXVpcmVfX1xuY29uc3QgX19uZXh0X2FwcF9sb2FkX2NodW5rX18gPSAoKSA9PiBQcm9taXNlLnJlc29sdmUoKVxuZXhwb3J0IGNvbnN0IF9fbmV4dF9hcHBfXyA9IHtcbiAgICByZXF1aXJlOiBfX25leHRfYXBwX3JlcXVpcmVfXyxcbiAgICBsb2FkQ2h1bms6IF9fbmV4dF9hcHBfbG9hZF9jaHVua19fXG59O1xuZXhwb3J0ICogZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvYXBwLXJlbmRlci9lbnRyeS1iYXNlXCIgd2l0aCB7XG4gICAgJ3R1cmJvcGFjay10cmFuc2l0aW9uJzogJ25leHQtc2VydmVyLXV0aWxpdHknXG59O1xuLy8gQ3JlYXRlIGFuZCBleHBvcnQgdGhlIHJvdXRlIG1vZHVsZSB0aGF0IHdpbGwgYmUgY29uc3VtZWQuXG5leHBvcnQgY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgQXBwUGFnZVJvdXRlTW9kdWxlKHtcbiAgICBkZWZpbml0aW9uOiB7XG4gICAgICAgIGtpbmQ6IFJvdXRlS2luZC5BUFBfUEFHRSxcbiAgICAgICAgcGFnZTogXCIvX25vdC1mb3VuZC9wYWdlXCIsXG4gICAgICAgIHBhdGhuYW1lOiBcIi9fbm90LWZvdW5kXCIsXG4gICAgICAgIC8vIFRoZSBmb2xsb3dpbmcgYXJlbid0IHVzZWQgaW4gcHJvZHVjdGlvbi5cbiAgICAgICAgYnVuZGxlUGF0aDogJycsXG4gICAgICAgIGZpbGVuYW1lOiAnJyxcbiAgICAgICAgYXBwUGF0aHM6IFtdXG4gICAgfSxcbiAgICB1c2VybGFuZDoge1xuICAgICAgICBsb2FkZXJUcmVlOiB0cmVlXG4gICAgfVxufSk7XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWFwcC1wYWdlLmpzLm1hcCJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+>>>>>>> Stashed changes
 
 /***/ }),
 
@@ -33,12 +58,54 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 
 /***/ }),
 
+<<<<<<< Updated upstream
 /***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=true!":
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=true! ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ (() => {
 
+=======
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fcomponents%2Ftheme-provider.tsx%22%2C%22ids%22%3A%5B%22ThemeProvider%22%5D%7D&server=true!":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fcomponents%2Ftheme-provider.tsx%22%2C%22ids%22%3A%5B%22ThemeProvider%22%5D%7D&server=true! ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/components/theme-provider.tsx */ \"(rsc)/./src/components/theme-provider.tsx\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMiUyRlVzZXJzJTJGdW1lcmJhandhJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGY29tcHV0ZXItcmVwYWlyLXNob3AlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZmb250JTJGZ29vZ2xlJTJGdGFyZ2V0LmNzcyUzRiU3QiU1QyUyMnBhdGglNUMlMjIlM0ElNUMlMjJzcmMlMkZhcHAlMkZsYXlvdXQudHN4JTVDJTIyJTJDJTVDJTIyaW1wb3J0JTVDJTIyJTNBJTVDJTIyR2Vpc3QlNUMlMjIlMkMlNUMlMjJhcmd1bWVudHMlNUMlMjIlM0ElNUIlN0IlNUMlMjJ2YXJpYWJsZSU1QyUyMiUzQSU1QyUyMi0tZm9udC1nZWlzdC1zYW5zJTVDJTIyJTJDJTVDJTIyc3Vic2V0cyU1QyUyMiUzQSU1QiU1QyUyMmxhdGluJTVDJTIyJTVEJTdEJTVEJTJDJTVDJTIydmFyaWFibGVOYW1lJTVDJTIyJTNBJTVDJTIyZ2Vpc3RTYW5zJTVDJTIyJTdEJTIyJTJDJTIyaWRzJTIyJTNBJTVCJTVEJTdEJm1vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMiUyRlVzZXJzJTJGdW1lcmJhandhJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGY29tcHV0ZXItcmVwYWlyLXNob3AlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZmb250JTJGZ29vZ2xlJTJGdGFyZ2V0LmNzcyUzRiU3QiU1QyUyMnBhdGglNUMlMjIlM0ElNUMlMjJzcmMlMkZhcHAlMkZsYXlvdXQudHN4JTVDJTIyJTJDJTVDJTIyaW1wb3J0JTVDJTIyJTNBJTVDJTIyR2Vpc3RfTW9ubyU1QyUyMiUyQyU1QyUyMmFyZ3VtZW50cyU1QyUyMiUzQSU1QiU3QiU1QyUyMnZhcmlhYmxlJTVDJTIyJTNBJTVDJTIyLS1mb250LWdlaXN0LW1vbm8lNUMlMjIlMkMlNUMlMjJzdWJzZXRzJTVDJTIyJTNBJTVCJTVDJTIybGF0aW4lNUMlMjIlNUQlN0QlNUQlMkMlNUMlMjJ2YXJpYWJsZU5hbWUlNUMlMjIlM0ElNUMlMjJnZWlzdE1vbm8lNUMlMjIlN0QlMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0QmbW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyJTJGVXNlcnMlMkZ1bWVyYmFqd2ElMkZEb2N1bWVudHMlMkZHaXRIdWIlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRmNvbXB1dGVyLXJlcGFpci1zaG9wJTJGc3JjJTJGYXBwJTJGZ2xvYmFscy5jc3MlMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0QmbW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyJTJGVXNlcnMlMkZ1bWVyYmFqd2ElMkZEb2N1bWVudHMlMkZHaXRIdWIlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRmNvbXB1dGVyLXJlcGFpci1zaG9wJTJGc3JjJTJGY29tcG9uZW50cyUyRnRoZW1lLXByb3ZpZGVyLnRzeCUyMiUyQyUyMmlkcyUyMiUzQSU1QiUyMlRoZW1lUHJvdmlkZXIlMjIlNUQlN0Qmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBLGtMQUFxTCIsInNvdXJjZXMiOlsiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiLCB3ZWJwYWNrRXhwb3J0czogW1wiVGhlbWVQcm92aWRlclwiXSAqLyBcIi9Vc2Vycy91bWVyYmFqd2EvRG9jdW1lbnRzL0dpdEh1Yi9jb21wdXRlci1yZXBhaXItc2hvcC9jb21wdXRlci1yZXBhaXItc2hvcC9zcmMvY29tcG9uZW50cy90aGVtZS1wcm92aWRlci50c3hcIik7XG4iXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fcomponents%2Ftheme-provider.tsx%22%2C%22ids%22%3A%5B%22ThemeProvider%22%5D%7D&server=true!\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobal-error.tsx%22%2C%22ids%22%3A%5B%5D%7D&server=true!":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobal-error.tsx%22%2C%22ids%22%3A%5B%5D%7D&server=true! ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/global-error.tsx */ \"(rsc)/./src/app/global-error.tsx\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMiUyRlVzZXJzJTJGdW1lcmJhandhJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGY29tcHV0ZXItcmVwYWlyLXNob3AlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRnNyYyUyRmFwcCUyRmdsb2JhbC1lcnJvci50c3glMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0Qmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBLGdLQUF5SSIsInNvdXJjZXMiOlsiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3VtZXJiYWp3YS9Eb2N1bWVudHMvR2l0SHViL2NvbXB1dGVyLXJlcGFpci1zaG9wL2NvbXB1dGVyLXJlcGFpci1zaG9wL3NyYy9hcHAvZ2xvYmFsLWVycm9yLnRzeFwiKTtcbiJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobal-error.tsx%22%2C%22ids%22%3A%5B%5D%7D&server=true!\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/global-error.tsx":
+/*!**********************************!*\
+  !*** ./src/app/global-error.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-server-dom-webpack/server.edge */ "(rsc)/./node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge.js");
+/* harmony import */ var react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_0__.registerClientReference)(
+function() { throw new Error("Attempted to call the default export of \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/global-error.tsx\" from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component."); },
+"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/global-error.tsx",
+"default",
+));
+>>>>>>> Stashed changes
 
 
 /***/ }),
@@ -61,7 +128,51 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+<<<<<<< Updated upstream
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Geist_arguments_variable_font_geist_sans_subsets_latin_variableName_geistSans___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Geist\",\"arguments\":[{\"variable\":\"--font-geist-sans\",\"subsets\":[\"latin\"]}],\"variableName\":\"geistSans\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Geist\\\",\\\"arguments\\\":[{\\\"variable\\\":\\\"--font-geist-sans\\\",\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"geistSans\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Geist_arguments_variable_font_geist_sans_subsets_latin_variableName_geistSans___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Geist_arguments_variable_font_geist_sans_subsets_latin_variableName_geistSans___WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Geist_Mono_arguments_variable_font_geist_mono_subsets_latin_variableName_geistMono___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Geist_Mono\",\"arguments\":[{\"variable\":\"--font-geist-mono\",\"subsets\":[\"latin\"]}],\"variableName\":\"geistMono\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Geist_Mono\\\",\\\"arguments\\\":[{\\\"variable\\\":\\\"--font-geist-mono\\\",\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"geistMono\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Geist_Mono_arguments_variable_font_geist_mono_subsets_latin_variableName_geistMono___WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Geist_Mono_arguments_variable_font_geist_mono_subsets_latin_variableName_geistMono___WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./src/app/globals.css\");\n\n\n\n\nconst metadata = {\n    title: \"Create Next App\",\n    description: \"Generated by create next app\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: `${(next_font_google_target_css_path_src_app_layout_tsx_import_Geist_arguments_variable_font_geist_sans_subsets_latin_variableName_geistSans___WEBPACK_IMPORTED_MODULE_2___default().variable)} ${(next_font_google_target_css_path_src_app_layout_tsx_import_Geist_Mono_arguments_variable_font_geist_mono_subsets_latin_variableName_geistMono___WEBPACK_IMPORTED_MODULE_3___default().variable)} antialiased`,\n            children: children\n        }, void 0, false, {\n            fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/layout.tsx\",\n            lineNumber: 27,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/layout.tsx\",\n        lineNumber: 26,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xheW91dC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUlNQTtBQUtBQztBQVBpQjtBQVloQixNQUFNQyxXQUFxQjtJQUNoQ0MsT0FBTztJQUNQQyxhQUFhO0FBQ2YsRUFBRTtBQUVhLFNBQVNDLFdBQVcsRUFDakNDLFFBQVEsRUFHUjtJQUNBLHFCQUNFLDhEQUFDQztRQUFLQyxNQUFLO2tCQUNULDRFQUFDQztZQUNDQyxXQUFXLEdBQUdWLDJMQUFrQixDQUFDLENBQUMsRUFBRUMsZ01BQWtCLENBQUMsWUFBWSxDQUFDO3NCQUVuRUs7Ozs7Ozs7Ozs7O0FBSVQiLCJzb3VyY2VzIjpbIi9Vc2Vycy91bWVyYmFqd2EvRG9jdW1lbnRzL0dpdEh1Yi9jb21wdXRlci1yZXBhaXItc2hvcC9jb21wdXRlci1yZXBhaXItc2hvcC9zcmMvYXBwL2xheW91dC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gXCJuZXh0XCI7XG5pbXBvcnQgeyBHZWlzdCwgR2Vpc3RfTW9ubyB9IGZyb20gXCJuZXh0L2ZvbnQvZ29vZ2xlXCI7XG5pbXBvcnQgXCIuL2dsb2JhbHMuY3NzXCI7XG5cbmNvbnN0IGdlaXN0U2FucyA9IEdlaXN0KHtcbiAgdmFyaWFibGU6IFwiLS1mb250LWdlaXN0LXNhbnNcIixcbiAgc3Vic2V0czogW1wibGF0aW5cIl0sXG59KTtcblxuY29uc3QgZ2Vpc3RNb25vID0gR2Vpc3RfTW9ubyh7XG4gIHZhcmlhYmxlOiBcIi0tZm9udC1nZWlzdC1tb25vXCIsXG4gIHN1YnNldHM6IFtcImxhdGluXCJdLFxufSk7XG5cbmV4cG9ydCBjb25zdCBtZXRhZGF0YTogTWV0YWRhdGEgPSB7XG4gIHRpdGxlOiBcIkNyZWF0ZSBOZXh0IEFwcFwiLFxuICBkZXNjcmlwdGlvbjogXCJHZW5lcmF0ZWQgYnkgY3JlYXRlIG5leHQgYXBwXCIsXG59O1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSb290TGF5b3V0KHtcbiAgY2hpbGRyZW4sXG59OiBSZWFkb25seTx7XG4gIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7XG59Pikge1xuICByZXR1cm4gKFxuICAgIDxodG1sIGxhbmc9XCJlblwiPlxuICAgICAgPGJvZHlcbiAgICAgICAgY2xhc3NOYW1lPXtgJHtnZWlzdFNhbnMudmFyaWFibGV9ICR7Z2Vpc3RNb25vLnZhcmlhYmxlfSBhbnRpYWxpYXNlZGB9XG4gICAgICA+XG4gICAgICAgIHtjaGlsZHJlbn1cbiAgICAgIDwvYm9keT5cbiAgICA8L2h0bWw+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiZ2Vpc3RTYW5zIiwiZ2Vpc3RNb25vIiwibWV0YWRhdGEiLCJ0aXRsZSIsImRlc2NyaXB0aW9uIiwiUm9vdExheW91dCIsImNoaWxkcmVuIiwiaHRtbCIsImxhbmciLCJib2R5IiwiY2xhc3NOYW1lIiwidmFyaWFibGUiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/layout.tsx\n");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ wrappedServerComponent$1),\n/* harmony export */   generateImageMetadata: () => (/* binding */ generateImageMetadata),\n/* harmony export */   generateMetadata: () => (/* binding */ generateMetadata),\n/* harmony export */   generateViewport: () => (/* binding */ generateViewport),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var _sentry_nextjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @sentry/nextjs */ \"(rsc)/./node_modules/@sentry/nextjs/build/cjs/index.server.js\");\n/* harmony import */ var _sentry_nextjs__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_sentry_nextjs__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var next_dist_server_app_render_work_unit_async_storage_external_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/app-render/work-unit-async-storage.external.js */ \"./work-unit-async-storage.external\");\n/* harmony import */ var next_dist_server_app_render_work_unit_async_storage_external_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_work_unit_async_storage_external_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Geist_arguments_variable_font_geist_sans_subsets_latin_variableName_geistSans___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Geist\",\"arguments\":[{\"variable\":\"--font-geist-sans\",\"subsets\":[\"latin\"]}],\"variableName\":\"geistSans\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Geist\\\",\\\"arguments\\\":[{\\\"variable\\\":\\\"--font-geist-sans\\\",\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"geistSans\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Geist_arguments_variable_font_geist_sans_subsets_latin_variableName_geistSans___WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Geist_arguments_variable_font_geist_sans_subsets_latin_variableName_geistSans___WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Geist_Mono_arguments_variable_font_geist_mono_subsets_latin_variableName_geistMono___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Geist_Mono\",\"arguments\":[{\"variable\":\"--font-geist-mono\",\"subsets\":[\"latin\"]}],\"variableName\":\"geistMono\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Geist_Mono\\\",\\\"arguments\\\":[{\\\"variable\\\":\\\"--font-geist-mono\\\",\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"geistMono\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Geist_Mono_arguments_variable_font_geist_mono_subsets_latin_variableName_geistMono___WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Geist_Mono_arguments_variable_font_geist_mono_subsets_latin_variableName_geistMono___WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./src/app/globals.css\");\n/* harmony import */ var _components_theme_provider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/components/theme-provider */ \"(rsc)/./src/components/theme-provider.tsx\");\n\n\n\n\n\n\n\n\nconst metadata = {\n    title: \"Create Next App\",\n    description: \"Generated by create next app\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        suppressHydrationWarning: true,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"body\", {\n            className: `${(next_font_google_target_css_path_src_app_layout_tsx_import_Geist_arguments_variable_font_geist_sans_subsets_latin_variableName_geistSans___WEBPACK_IMPORTED_MODULE_4___default().variable)} ${(next_font_google_target_css_path_src_app_layout_tsx_import_Geist_Mono_arguments_variable_font_geist_mono_subsets_latin_variableName_geistMono___WEBPACK_IMPORTED_MODULE_5___default().variable)} antialiased`,\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(_components_theme_provider__WEBPACK_IMPORTED_MODULE_3__.ThemeProvider, {\n                attribute: \"class\",\n                defaultTheme: \"system\",\n                enableSystem: true,\n                disableTransitionOnChange: true,\n                children: children\n            }, void 0, false, {\n                fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/layout.tsx\",\n                lineNumber: 31,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/layout.tsx\",\n            lineNumber: 28,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/layout.tsx\",\n        lineNumber: 27,\n        columnNumber: 5\n    }, this);\n}\n\nconst asyncStorageModule = { ...next_dist_server_app_render_work_unit_async_storage_external_js__WEBPACK_IMPORTED_MODULE_0__ } ;\n\nconst requestAsyncStorage =\n  'workUnitAsyncStorage' in asyncStorageModule\n    ? asyncStorageModule.workUnitAsyncStorage\n    : 'requestAsyncStorage' in asyncStorageModule\n      ? asyncStorageModule.requestAsyncStorage\n      : undefined;\n\nconst serverComponent = RootLayout;\n\nlet wrappedServerComponent;\nif (typeof serverComponent === 'function') {\n  // For some odd Next.js magic reason, `headers()` will not work if used inside `wrapServerComponentsWithSentry`.\n  // Current assumption is that Next.js applies some loader magic to userfiles, but not files in node_modules. This file\n  // is technically a userfile so it gets the loader magic applied.\n  wrappedServerComponent = new Proxy(serverComponent, {\n    apply: (originalFunction, thisArg, args) => {\n      let sentryTraceHeader = undefined;\n      let baggageHeader = undefined;\n      let headers = undefined;\n\n      // We try-catch here just in `requestAsyncStorage` is undefined since it may not be defined\n      try {\n        const requestAsyncStore = requestAsyncStorage?.getStore() ;\n        sentryTraceHeader = requestAsyncStore?.headers.get('sentry-trace') ?? undefined;\n        baggageHeader = requestAsyncStore?.headers.get('baggage') ?? undefined;\n        headers = requestAsyncStore?.headers;\n      } catch (e) {\n        /** empty */\n      }\n\n      return _sentry_nextjs__WEBPACK_IMPORTED_MODULE_6__.wrapServerComponentWithSentry(originalFunction, {\n        componentRoute: '/',\n        componentType: 'Layout',\n        sentryTraceHeader,\n        baggageHeader,\n        headers,\n      }).apply(thisArg, args);\n    },\n  });\n} else {\n  wrappedServerComponent = serverComponent;\n}\n\nconst generateMetadata = undefined;\n\nconst generateImageMetadata = undefined;\n\nconst generateViewport = undefined;\n\nconst wrappedServerComponent$1 = wrappedServerComponent;\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xheW91dC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztNQWVhQSxRQUFxQjtJQUNoQ0MsS0FBTztJQUNQQyxXQUFhO0FBQ2Y7QUFFZSxTQUFTQyxVQUFBQSxDQUFXLEVBQ2pDQyxRQUFRLEVBR1I7QUFDQSx5QkFDRUMsNkRBQUNDLENBQUFBLE1BQUFBLEVBQUFBO1FBQUtDLElBQUs7UUFBS0Msd0JBQXdCO0FBQ3RDLGdDQUFBSCw2REFBQ0ksQ0FBQUEsTUFBQUEsRUFBQUE7WUFDQ0MsU0FBVyxLQUFHQywyTEFBa0IsQ0FBQyxDQUFDLEVBQUVFLGdNQUFrQixDQUFDLFlBQVksQ0FBQztBQUVwRSxvQ0FBQVIsNkRBQUNTLENBQUFBLHFFQUFBQSxFQUFBQTtnQkFDQ0MsU0FBVTtnQkFDVkMsWUFBYTtnQkFDYkMsWUFBWTtnQkFDWkMseUJBQXlCO0FBRXhCZCxnQkFBQUEsUUFBQUEsRUFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7QUFLWDs7QUNwQ0EsTUFBTSxrQkFBa0IsR0FBRyxFQUFFLEdBQUcsNEZBQVUsRUFBRTs7QUFFNUMsTUFBTSxtQkFBbUI7QUFDekIsRUFBRSxzQkFBc0IsSUFBSTtBQUM1QixNQUFNLGtCQUFrQixDQUFDO0FBQ3pCLE1BQU0scUJBQXFCLElBQUk7QUFDL0IsUUFBUSxrQkFBa0IsQ0FBQztBQUMzQixRQUFRLFNBQVM7O0FBRWpCLE1BQU0sZUFBZSxHQUFHZSxVQUE2Qjs7QUFFckQsSUFBSSxzQkFBc0I7QUFDMUIsSUFBSSxPQUFPLGVBQWUsS0FBSyxVQUFVLEVBQUU7QUFDM0M7QUFDQTtBQUNBO0FBQ0EsRUFBRSxzQkFBc0IsR0FBRyxJQUFJLEtBQUssQ0FBQyxlQUFlLEVBQUU7QUFDdEQsSUFBSSxLQUFLLEVBQUUsQ0FBQyxnQkFBZ0IsRUFBRSxPQUFPLEVBQUUsSUFBSSxLQUFLO0FBQ2hELE1BQU0sSUFBSSxpQkFBaUIsR0FBRyxTQUFTO0FBQ3ZDLE1BQU0sSUFBSSxhQUFhLEdBQUcsU0FBUztBQUNuQyxNQUFNLElBQUksT0FBTyxHQUFHLFNBQVM7O0FBRTdCO0FBQ0EsTUFBTSxJQUFJO0FBQ1YsUUFBUSxNQUFNLGlCQUFpQixHQUFHLG1CQUFtQixFQUFFLFFBQVEsRUFBRTtBQUNqRSxRQUFRLGlCQUFpQixHQUFHLGlCQUFpQixFQUFFLE9BQU8sQ0FBQyxHQUFHLENBQUMsY0FBYyxDQUFDLElBQUksU0FBUztBQUN2RixRQUFRLGFBQWEsR0FBRyxpQkFBaUIsRUFBRSxPQUFPLENBQUMsR0FBRyxDQUFDLFNBQVMsQ0FBQyxJQUFJLFNBQVM7QUFDOUUsUUFBUSxPQUFPLEdBQUcsaUJBQWlCLEVBQUUsT0FBTztBQUM1QyxPQUFPLENBQUMsT0FBTyxDQUFDLEVBQUU7QUFDbEI7QUFDQTs7QUFFQSxNQUFNLE9BQU8seUVBQW9DLENBQUMsZ0JBQWdCLEVBQUU7QUFDcEUsUUFBUSxjQUFjLEVBQUUsR0FBRztBQUMzQixRQUFRLGFBQWEsRUFBRSxRQUFRO0FBQy9CLFFBQVEsaUJBQWlCO0FBQ3pCLFFBQVEsYUFBYTtBQUNyQixRQUFRLE9BQU87QUFDZixPQUFPLENBQUMsQ0FBQyxLQUFLLENBQUMsT0FBTyxFQUFFLElBQUksQ0FBQztBQUM3QixLQUFLO0FBQ0wsR0FBRyxDQUFDO0FBQ0osQ0FBQyxNQUFNO0FBQ1AsRUFBRSxzQkFBc0IsR0FBRyxlQUFlO0FBQzFDOztBQUVLLE1BQUMsZ0JBQWdCLEdBT2xCOztBQUVDLE1BQUMscUJBQXFCLEdBT3ZCOztBQUVDLE1BQUMsZ0JBQWdCLEdBT2xCOztBQUVDLE1BQUMsd0JBQXdCLEdBQUciLCJzb3VyY2VzIjpbInNyYy9hcHAvbGF5b3V0LnRzeCIsInNlbnRyeS13cmFwcGVyLW1vZHVsZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgdHlwZSB7IE1ldGFkYXRhIH0gZnJvbSBcIm5leHRcIjtcbmltcG9ydCB7IEdlaXN0LCBHZWlzdF9Nb25vIH0gZnJvbSBcIm5leHQvZm9udC9nb29nbGVcIjtcbmltcG9ydCBcIi4vZ2xvYmFscy5jc3NcIjtcbmltcG9ydCB7IFRoZW1lUHJvdmlkZXIgfSBmcm9tIFwiQC9jb21wb25lbnRzL3RoZW1lLXByb3ZpZGVyXCI7XG5cbmNvbnN0IGdlaXN0U2FucyA9IEdlaXN0KHtcbiAgdmFyaWFibGU6IFwiLS1mb250LWdlaXN0LXNhbnNcIixcbiAgc3Vic2V0czogW1wibGF0aW5cIl0sXG59KTtcblxuY29uc3QgZ2Vpc3RNb25vID0gR2Vpc3RfTW9ubyh7XG4gIHZhcmlhYmxlOiBcIi0tZm9udC1nZWlzdC1tb25vXCIsXG4gIHN1YnNldHM6IFtcImxhdGluXCJdLFxufSk7XG5cbmV4cG9ydCBjb25zdCBtZXRhZGF0YTogTWV0YWRhdGEgPSB7XG4gIHRpdGxlOiBcIkNyZWF0ZSBOZXh0IEFwcFwiLFxuICBkZXNjcmlwdGlvbjogXCJHZW5lcmF0ZWQgYnkgY3JlYXRlIG5leHQgYXBwXCIsXG59O1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSb290TGF5b3V0KHtcbiAgY2hpbGRyZW4sXG59OiBSZWFkb25seTx7XG4gIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7XG59Pikge1xuICByZXR1cm4gKFxuICAgIDxodG1sIGxhbmc9XCJlblwiIHN1cHByZXNzSHlkcmF0aW9uV2FybmluZz5cbiAgICAgIDxib2R5XG4gICAgICAgIGNsYXNzTmFtZT17YCR7Z2Vpc3RTYW5zLnZhcmlhYmxlfSAke2dlaXN0TW9uby52YXJpYWJsZX0gYW50aWFsaWFzZWRgfVxuICAgICAgPlxuICAgICAgICA8VGhlbWVQcm92aWRlclxuICAgICAgICAgIGF0dHJpYnV0ZT1cImNsYXNzXCJcbiAgICAgICAgICBkZWZhdWx0VGhlbWU9XCJzeXN0ZW1cIlxuICAgICAgICAgIGVuYWJsZVN5c3RlbVxuICAgICAgICAgIGRpc2FibGVUcmFuc2l0aW9uT25DaGFuZ2VcbiAgICAgICAgPlxuICAgICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgPC9UaGVtZVByb3ZpZGVyPlxuICAgICAgPC9ib2R5PlxuICAgIDwvaHRtbD5cbiAgKTtcbn1cbiIsImltcG9ydCAqIGFzIFNlbnRyeSBmcm9tICdAc2VudHJ5L25leHRqcyc7XG5pbXBvcnQgKiBhcyBvcmlnTW9kdWxlIGZyb20gJ25leHQvZGlzdC9zZXJ2ZXIvYXBwLXJlbmRlci93b3JrLXVuaXQtYXN5bmMtc3RvcmFnZS5leHRlcm5hbC5qcyc7XG5pbXBvcnQgKiBhcyBzZXJ2ZXJDb21wb25lbnRNb2R1bGUgZnJvbSAnX19TRU5UUllfV1JBUFBJTkdfVEFSR0VUX0ZJTEVfXy5janMnO1xuZXhwb3J0ICogZnJvbSAnX19TRU5UUllfV1JBUFBJTkdfVEFSR0VUX0ZJTEVfXy5janMnO1xuXG5jb25zdCBhc3luY1N0b3JhZ2VNb2R1bGUgPSB7IC4uLm9yaWdNb2R1bGUgfSA7XG5cbmNvbnN0IHJlcXVlc3RBc3luY1N0b3JhZ2UgPVxuICAnd29ya1VuaXRBc3luY1N0b3JhZ2UnIGluIGFzeW5jU3RvcmFnZU1vZHVsZVxuICAgID8gYXN5bmNTdG9yYWdlTW9kdWxlLndvcmtVbml0QXN5bmNTdG9yYWdlXG4gICAgOiAncmVxdWVzdEFzeW5jU3RvcmFnZScgaW4gYXN5bmNTdG9yYWdlTW9kdWxlXG4gICAgICA/IGFzeW5jU3RvcmFnZU1vZHVsZS5yZXF1ZXN0QXN5bmNTdG9yYWdlXG4gICAgICA6IHVuZGVmaW5lZDtcblxuY29uc3Qgc2VydmVyQ29tcG9uZW50ID0gc2VydmVyQ29tcG9uZW50TW9kdWxlLmRlZmF1bHQ7XG5cbmxldCB3cmFwcGVkU2VydmVyQ29tcG9uZW50O1xuaWYgKHR5cGVvZiBzZXJ2ZXJDb21wb25lbnQgPT09ICdmdW5jdGlvbicpIHtcbiAgLy8gRm9yIHNvbWUgb2RkIE5leHQuanMgbWFnaWMgcmVhc29uLCBgaGVhZGVycygpYCB3aWxsIG5vdCB3b3JrIGlmIHVzZWQgaW5zaWRlIGB3cmFwU2VydmVyQ29tcG9uZW50c1dpdGhTZW50cnlgLlxuICAvLyBDdXJyZW50IGFzc3VtcHRpb24gaXMgdGhhdCBOZXh0LmpzIGFwcGxpZXMgc29tZSBsb2FkZXIgbWFnaWMgdG8gdXNlcmZpbGVzLCBidXQgbm90IGZpbGVzIGluIG5vZGVfbW9kdWxlcy4gVGhpcyBmaWxlXG4gIC8vIGlzIHRlY2huaWNhbGx5IGEgdXNlcmZpbGUgc28gaXQgZ2V0cyB0aGUgbG9hZGVyIG1hZ2ljIGFwcGxpZWQuXG4gIHdyYXBwZWRTZXJ2ZXJDb21wb25lbnQgPSBuZXcgUHJveHkoc2VydmVyQ29tcG9uZW50LCB7XG4gICAgYXBwbHk6IChvcmlnaW5hbEZ1bmN0aW9uLCB0aGlzQXJnLCBhcmdzKSA9PiB7XG4gICAgICBsZXQgc2VudHJ5VHJhY2VIZWFkZXIgPSB1bmRlZmluZWQ7XG4gICAgICBsZXQgYmFnZ2FnZUhlYWRlciA9IHVuZGVmaW5lZDtcbiAgICAgIGxldCBoZWFkZXJzID0gdW5kZWZpbmVkO1xuXG4gICAgICAvLyBXZSB0cnktY2F0Y2ggaGVyZSBqdXN0IGluIGByZXF1ZXN0QXN5bmNTdG9yYWdlYCBpcyB1bmRlZmluZWQgc2luY2UgaXQgbWF5IG5vdCBiZSBkZWZpbmVkXG4gICAgICB0cnkge1xuICAgICAgICBjb25zdCByZXF1ZXN0QXN5bmNTdG9yZSA9IHJlcXVlc3RBc3luY1N0b3JhZ2U/LmdldFN0b3JlKCkgO1xuICAgICAgICBzZW50cnlUcmFjZUhlYWRlciA9IHJlcXVlc3RBc3luY1N0b3JlPy5oZWFkZXJzLmdldCgnc2VudHJ5LXRyYWNlJykgPz8gdW5kZWZpbmVkO1xuICAgICAgICBiYWdnYWdlSGVhZGVyID0gcmVxdWVzdEFzeW5jU3RvcmU/LmhlYWRlcnMuZ2V0KCdiYWdnYWdlJykgPz8gdW5kZWZpbmVkO1xuICAgICAgICBoZWFkZXJzID0gcmVxdWVzdEFzeW5jU3RvcmU/LmhlYWRlcnM7XG4gICAgICB9IGNhdGNoIChlKSB7XG4gICAgICAgIC8qKiBlbXB0eSAqL1xuICAgICAgfVxuXG4gICAgICByZXR1cm4gU2VudHJ5LndyYXBTZXJ2ZXJDb21wb25lbnRXaXRoU2VudHJ5KG9yaWdpbmFsRnVuY3Rpb24sIHtcbiAgICAgICAgY29tcG9uZW50Um91dGU6ICcvJyxcbiAgICAgICAgY29tcG9uZW50VHlwZTogJ0xheW91dCcsXG4gICAgICAgIHNlbnRyeVRyYWNlSGVhZGVyLFxuICAgICAgICBiYWdnYWdlSGVhZGVyLFxuICAgICAgICBoZWFkZXJzLFxuICAgICAgfSkuYXBwbHkodGhpc0FyZywgYXJncyk7XG4gICAgfSxcbiAgfSk7XG59IGVsc2Uge1xuICB3cmFwcGVkU2VydmVyQ29tcG9uZW50ID0gc2VydmVyQ29tcG9uZW50O1xufVxuXG5jb25zdCBnZW5lcmF0ZU1ldGFkYXRhID0gc2VydmVyQ29tcG9uZW50TW9kdWxlLmdlbmVyYXRlTWV0YWRhdGFcbiAgPyBTZW50cnkud3JhcEdlbmVyYXRpb25GdW5jdGlvbldpdGhTZW50cnkoc2VydmVyQ29tcG9uZW50TW9kdWxlLmdlbmVyYXRlTWV0YWRhdGEsIHtcbiAgICAgIGNvbXBvbmVudFJvdXRlOiAnLycsXG4gICAgICBjb21wb25lbnRUeXBlOiAnTGF5b3V0JyxcbiAgICAgIGdlbmVyYXRpb25GdW5jdGlvbklkZW50aWZpZXI6ICdnZW5lcmF0ZU1ldGFkYXRhJyxcbiAgICAgIHJlcXVlc3RBc3luY1N0b3JhZ2UsXG4gICAgfSlcbiAgOiB1bmRlZmluZWQ7XG5cbmNvbnN0IGdlbmVyYXRlSW1hZ2VNZXRhZGF0YSA9IHNlcnZlckNvbXBvbmVudE1vZHVsZS5nZW5lcmF0ZUltYWdlTWV0YWRhdGFcbiAgPyBTZW50cnkud3JhcEdlbmVyYXRpb25GdW5jdGlvbldpdGhTZW50cnkoc2VydmVyQ29tcG9uZW50TW9kdWxlLmdlbmVyYXRlSW1hZ2VNZXRhZGF0YSwge1xuICAgICAgY29tcG9uZW50Um91dGU6ICcvJyxcbiAgICAgIGNvbXBvbmVudFR5cGU6ICdMYXlvdXQnLFxuICAgICAgZ2VuZXJhdGlvbkZ1bmN0aW9uSWRlbnRpZmllcjogJ2dlbmVyYXRlSW1hZ2VNZXRhZGF0YScsXG4gICAgICByZXF1ZXN0QXN5bmNTdG9yYWdlLFxuICAgIH0pXG4gIDogdW5kZWZpbmVkO1xuXG5jb25zdCBnZW5lcmF0ZVZpZXdwb3J0ID0gc2VydmVyQ29tcG9uZW50TW9kdWxlLmdlbmVyYXRlVmlld3BvcnRcbiAgPyBTZW50cnkud3JhcEdlbmVyYXRpb25GdW5jdGlvbldpdGhTZW50cnkoc2VydmVyQ29tcG9uZW50TW9kdWxlLmdlbmVyYXRlVmlld3BvcnQsIHtcbiAgICAgIGNvbXBvbmVudFJvdXRlOiAnLycsXG4gICAgICBjb21wb25lbnRUeXBlOiAnTGF5b3V0JyxcbiAgICAgIGdlbmVyYXRpb25GdW5jdGlvbklkZW50aWZpZXI6ICdnZW5lcmF0ZVZpZXdwb3J0JyxcbiAgICAgIHJlcXVlc3RBc3luY1N0b3JhZ2UsXG4gICAgfSlcbiAgOiB1bmRlZmluZWQ7XG5cbmNvbnN0IHdyYXBwZWRTZXJ2ZXJDb21wb25lbnQkMSA9IHdyYXBwZWRTZXJ2ZXJDb21wb25lbnQ7XG5cbmV4cG9ydCB7IHdyYXBwZWRTZXJ2ZXJDb21wb25lbnQkMSBhcyBkZWZhdWx0LCBnZW5lcmF0ZUltYWdlTWV0YWRhdGEsIGdlbmVyYXRlTWV0YWRhdGEsIGdlbmVyYXRlVmlld3BvcnQgfTtcbiJdLCJuYW1lcyI6WyJtZXRhZGF0YSIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJfanN4REVWIiwiaHRtbCIsImxhbmciLCJzdXBwcmVzc0h5ZHJhdGlvbldhcm5pbmciLCJib2R5IiwiY2xhc3NOYW1lIiwiZ2Vpc3RTYW5zIiwidmFyaWFibGUiLCJnZWlzdE1vbm8iLCJUaGVtZVByb3ZpZGVyIiwiYXR0cmlidXRlIiwiZGVmYXVsdFRoZW1lIiwiZW5hYmxlU3lzdGVtIiwiZGlzYWJsZVRyYW5zaXRpb25PbkNoYW5nZSIsInNlcnZlckNvbXBvbmVudE1vZHVsZS5kZWZhdWx0Il0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/app/layout.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/components/theme-provider.tsx":
+/*!*******************************************!*\
+  !*** ./src/components/theme-provider.tsx ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ThemeProvider: () => (/* binding */ ThemeProvider)
+/* harmony export */ });
+/* harmony import */ var react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-server-dom-webpack/server.edge */ "(rsc)/./node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge.js");
+/* harmony import */ var react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_0__);
+
+const ThemeProvider = (0,react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_0__.registerClientReference)(
+function() { throw new Error("Attempted to call ThemeProvider() from the server but ThemeProvider is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component."); },
+"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/components/theme-provider.tsx",
+"ThemeProvider",
+);
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/@opentelemetry/instrumentation/build/esm/platform/node sync recursive":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@opentelemetry/instrumentation/build/esm/platform/node/ sync ***!
+  \***********************************************************************************/
+/***/ ((module) => {
+
+function webpackEmptyContext(req) {
+	var e = new Error("Cannot find module '" + req + "'");
+	e.code = 'MODULE_NOT_FOUND';
+	throw e;
+}
+webpackEmptyContext.keys = () => ([]);
+webpackEmptyContext.resolve = webpackEmptyContext;
+webpackEmptyContext.id = "(ssr)/./node_modules/@opentelemetry/instrumentation/build/esm/platform/node sync recursive";
+module.exports = webpackEmptyContext;
+>>>>>>> Stashed changes
 
 /***/ }),
 
@@ -75,6 +186,7 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 
 /***/ }),
 
+<<<<<<< Updated upstream
 /***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=true!":
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=true! ***!
@@ -82,6 +194,47 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 /***/ (() => {
 
 
+=======
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fcomponents%2Ftheme-provider.tsx%22%2C%22ids%22%3A%5B%22ThemeProvider%22%5D%7D&server=true!":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fcomponents%2Ftheme-provider.tsx%22%2C%22ids%22%3A%5B%22ThemeProvider%22%5D%7D&server=true! ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/components/theme-provider.tsx */ \"(ssr)/./src/components/theme-provider.tsx\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMiUyRlVzZXJzJTJGdW1lcmJhandhJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGY29tcHV0ZXItcmVwYWlyLXNob3AlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZmb250JTJGZ29vZ2xlJTJGdGFyZ2V0LmNzcyUzRiU3QiU1QyUyMnBhdGglNUMlMjIlM0ElNUMlMjJzcmMlMkZhcHAlMkZsYXlvdXQudHN4JTVDJTIyJTJDJTVDJTIyaW1wb3J0JTVDJTIyJTNBJTVDJTIyR2Vpc3QlNUMlMjIlMkMlNUMlMjJhcmd1bWVudHMlNUMlMjIlM0ElNUIlN0IlNUMlMjJ2YXJpYWJsZSU1QyUyMiUzQSU1QyUyMi0tZm9udC1nZWlzdC1zYW5zJTVDJTIyJTJDJTVDJTIyc3Vic2V0cyU1QyUyMiUzQSU1QiU1QyUyMmxhdGluJTVDJTIyJTVEJTdEJTVEJTJDJTVDJTIydmFyaWFibGVOYW1lJTVDJTIyJTNBJTVDJTIyZ2Vpc3RTYW5zJTVDJTIyJTdEJTIyJTJDJTIyaWRzJTIyJTNBJTVCJTVEJTdEJm1vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMiUyRlVzZXJzJTJGdW1lcmJhandhJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGY29tcHV0ZXItcmVwYWlyLXNob3AlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZmb250JTJGZ29vZ2xlJTJGdGFyZ2V0LmNzcyUzRiU3QiU1QyUyMnBhdGglNUMlMjIlM0ElNUMlMjJzcmMlMkZhcHAlMkZsYXlvdXQudHN4JTVDJTIyJTJDJTVDJTIyaW1wb3J0JTVDJTIyJTNBJTVDJTIyR2Vpc3RfTW9ubyU1QyUyMiUyQyU1QyUyMmFyZ3VtZW50cyU1QyUyMiUzQSU1QiU3QiU1QyUyMnZhcmlhYmxlJTVDJTIyJTNBJTVDJTIyLS1mb250LWdlaXN0LW1vbm8lNUMlMjIlMkMlNUMlMjJzdWJzZXRzJTVDJTIyJTNBJTVCJTVDJTIybGF0aW4lNUMlMjIlNUQlN0QlNUQlMkMlNUMlMjJ2YXJpYWJsZU5hbWUlNUMlMjIlM0ElNUMlMjJnZWlzdE1vbm8lNUMlMjIlN0QlMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0QmbW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyJTJGVXNlcnMlMkZ1bWVyYmFqd2ElMkZEb2N1bWVudHMlMkZHaXRIdWIlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRmNvbXB1dGVyLXJlcGFpci1zaG9wJTJGc3JjJTJGYXBwJTJGZ2xvYmFscy5jc3MlMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0QmbW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyJTJGVXNlcnMlMkZ1bWVyYmFqd2ElMkZEb2N1bWVudHMlMkZHaXRIdWIlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRmNvbXB1dGVyLXJlcGFpci1zaG9wJTJGc3JjJTJGY29tcG9uZW50cyUyRnRoZW1lLXByb3ZpZGVyLnRzeCUyMiUyQyUyMmlkcyUyMiUzQSU1QiUyMlRoZW1lUHJvdmlkZXIlMjIlNUQlN0Qmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBLGtMQUFxTCIsInNvdXJjZXMiOlsiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiLCB3ZWJwYWNrRXhwb3J0czogW1wiVGhlbWVQcm92aWRlclwiXSAqLyBcIi9Vc2Vycy91bWVyYmFqd2EvRG9jdW1lbnRzL0dpdEh1Yi9jb21wdXRlci1yZXBhaXItc2hvcC9jb21wdXRlci1yZXBhaXItc2hvcC9zcmMvY29tcG9uZW50cy90aGVtZS1wcm92aWRlci50c3hcIik7XG4iXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-sans%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistSans%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.tsx%5C%22%2C%5C%22import%5C%22%3A%5C%22Geist_Mono%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22variable%5C%22%3A%5C%22--font-geist-mono%5C%22%2C%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22geistMono%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fcomponents%2Ftheme-provider.tsx%22%2C%22ids%22%3A%5B%22ThemeProvider%22%5D%7D&server=true!\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobal-error.tsx%22%2C%22ids%22%3A%5B%5D%7D&server=true!":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobal-error.tsx%22%2C%22ids%22%3A%5B%5D%7D&server=true! ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/global-error.tsx */ \"(ssr)/./src/app/global-error.tsx\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMiUyRlVzZXJzJTJGdW1lcmJhandhJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGY29tcHV0ZXItcmVwYWlyLXNob3AlMkZjb21wdXRlci1yZXBhaXItc2hvcCUyRnNyYyUyRmFwcCUyRmdsb2JhbC1lcnJvci50c3glMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0Qmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBLGdLQUF5SSIsInNvdXJjZXMiOlsiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3VtZXJiYWp3YS9Eb2N1bWVudHMvR2l0SHViL2NvbXB1dGVyLXJlcGFpci1zaG9wL2NvbXB1dGVyLXJlcGFpci1zaG9wL3NyYy9hcHAvZ2xvYmFsLWVycm9yLnRzeFwiKTtcbiJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp%2Fglobal-error.tsx%22%2C%22ids%22%3A%5B%5D%7D&server=true!\n");
+
+/***/ }),
+
+/***/ "(ssr)/./src/app/global-error.tsx":
+/*!**********************************!*\
+  !*** ./src/app/global-error.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ GlobalError)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _sentry_nextjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @sentry/nextjs */ \"(ssr)/./node_modules/@sentry/nextjs/build/cjs/index.server.js\");\n/* harmony import */ var _sentry_nextjs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sentry_nextjs__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var next_error__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/error */ \"(ssr)/./node_modules/next/error.js\");\n/* harmony import */ var next_error__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_error__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\nfunction GlobalError({ error }) {\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)({\n        \"GlobalError.useEffect\": ()=>{\n            _sentry_nextjs__WEBPACK_IMPORTED_MODULE_3__.captureException(error);\n        }\n    }[\"GlobalError.useEffect\"], [\n        error\n    ]);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_error__WEBPACK_IMPORTED_MODULE_1___default()), {\n                statusCode: 0\n            }, void 0, false, {\n                fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/global-error.tsx\",\n                lineNumber: 19,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/global-error.tsx\",\n            lineNumber: 14,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/app/global-error.tsx\",\n        lineNumber: 13,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL2dsb2JhbC1lcnJvci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUV5QztBQUNOO0FBQ0Q7QUFFbkIsU0FBU0csWUFBWSxFQUFFQyxLQUFLLEVBQTBDO0lBQ25GRixnREFBU0E7aUNBQUM7WUFDUkYsNERBQXVCLENBQUNJO1FBQzFCO2dDQUFHO1FBQUNBO0tBQU07SUFFVixxQkFDRSw4REFBQ0U7a0JBQ0MsNEVBQUNDO3NCQUtDLDRFQUFDTixtREFBU0E7Z0JBQUNPLFlBQVk7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJL0IiLCJzb3VyY2VzIjpbIi9Vc2Vycy91bWVyYmFqd2EvRG9jdW1lbnRzL0dpdEh1Yi9jb21wdXRlci1yZXBhaXItc2hvcC9jb21wdXRlci1yZXBhaXItc2hvcC9zcmMvYXBwL2dsb2JhbC1lcnJvci50c3giXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCI7XG5cbmltcG9ydCAqIGFzIFNlbnRyeSBmcm9tIFwiQHNlbnRyeS9uZXh0anNcIjtcbmltcG9ydCBOZXh0RXJyb3IgZnJvbSBcIm5leHQvZXJyb3JcIjtcbmltcG9ydCB7IHVzZUVmZmVjdCB9IGZyb20gXCJyZWFjdFwiO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBHbG9iYWxFcnJvcih7IGVycm9yIH06IHsgZXJyb3I6IEVycm9yICYgeyBkaWdlc3Q/OiBzdHJpbmcgfSB9KSB7XG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgU2VudHJ5LmNhcHR1cmVFeGNlcHRpb24oZXJyb3IpO1xuICB9LCBbZXJyb3JdKTtcblxuICByZXR1cm4gKFxuICAgIDxodG1sPlxuICAgICAgPGJvZHk+XG4gICAgICAgIHsvKiBgTmV4dEVycm9yYCBpcyB0aGUgZGVmYXVsdCBOZXh0LmpzIGVycm9yIHBhZ2UgY29tcG9uZW50LiBJdHMgdHlwZVxuICAgICAgICBkZWZpbml0aW9uIHJlcXVpcmVzIGEgYHN0YXR1c0NvZGVgIHByb3AuIEhvd2V2ZXIsIHNpbmNlIHRoZSBBcHAgUm91dGVyXG4gICAgICAgIGRvZXMgbm90IGV4cG9zZSBzdGF0dXMgY29kZXMgZm9yIGVycm9ycywgd2Ugc2ltcGx5IHBhc3MgMCB0byByZW5kZXIgYVxuICAgICAgICBnZW5lcmljIGVycm9yIG1lc3NhZ2UuICovfVxuICAgICAgICA8TmV4dEVycm9yIHN0YXR1c0NvZGU9ezB9IC8+XG4gICAgICA8L2JvZHk+XG4gICAgPC9odG1sPlxuICApO1xufSJdLCJuYW1lcyI6WyJTZW50cnkiLCJOZXh0RXJyb3IiLCJ1c2VFZmZlY3QiLCJHbG9iYWxFcnJvciIsImVycm9yIiwiY2FwdHVyZUV4Y2VwdGlvbiIsImh0bWwiLCJib2R5Iiwic3RhdHVzQ29kZSJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./src/app/global-error.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./src/components/theme-provider.tsx":
+/*!*******************************************!*\
+  !*** ./src/components/theme-provider.tsx ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   ThemeProvider: () => (/* binding */ ThemeProvider)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-themes */ \"(ssr)/./node_modules/next-themes/dist/index.mjs\");\n/* __next_internal_client_entry_do_not_use__ ThemeProvider auto */ \n\n\nfunction ThemeProvider({ children, ...props }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_themes__WEBPACK_IMPORTED_MODULE_2__.ThemeProvider, {\n        ...props,\n        children: children\n    }, void 0, false, {\n        fileName: \"/Users/umerbajwa/Documents/GitHub/computer-repair-shop/computer-repair-shop/src/components/theme-provider.tsx\",\n        lineNumber: 10,\n        columnNumber: 10\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvY29tcG9uZW50cy90aGVtZS1wcm92aWRlci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUU4QjtBQUNtQztBQUUxRCxTQUFTQyxjQUFjLEVBQzVCRSxRQUFRLEVBQ1IsR0FBR0MsT0FDNkM7SUFDaEQscUJBQU8sOERBQUNGLHNEQUFrQkE7UUFBRSxHQUFHRSxLQUFLO2tCQUFHRDs7Ozs7O0FBQ3pDIiwic291cmNlcyI6WyIvVXNlcnMvdW1lcmJhandhL0RvY3VtZW50cy9HaXRIdWIvY29tcHV0ZXItcmVwYWlyLXNob3AvY29tcHV0ZXItcmVwYWlyLXNob3Avc3JjL2NvbXBvbmVudHMvdGhlbWUtcHJvdmlkZXIudHN4Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiXG5cbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiXG5pbXBvcnQgeyBUaGVtZVByb3ZpZGVyIGFzIE5leHRUaGVtZXNQcm92aWRlciB9IGZyb20gXCJuZXh0LXRoZW1lc1wiXG5cbmV4cG9ydCBmdW5jdGlvbiBUaGVtZVByb3ZpZGVyKHtcbiAgY2hpbGRyZW4sXG4gIC4uLnByb3BzXG59OiBSZWFjdC5Db21wb25lbnRQcm9wczx0eXBlb2YgTmV4dFRoZW1lc1Byb3ZpZGVyPikge1xuICByZXR1cm4gPE5leHRUaGVtZXNQcm92aWRlciB7Li4ucHJvcHN9PntjaGlsZHJlbn08L05leHRUaGVtZXNQcm92aWRlcj5cbn1cbiJdLCJuYW1lcyI6WyJSZWFjdCIsIlRoZW1lUHJvdmlkZXIiLCJOZXh0VGhlbWVzUHJvdmlkZXIiLCJjaGlsZHJlbiIsInByb3BzIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./src/components/theme-provider.tsx\n");
+>>>>>>> Stashed changes
 
 /***/ }),
 
@@ -129,6 +282,97 @@ module.exports = require("next/dist/server/app-render/work-unit-async-storage.ex
 
 /***/ }),
 
+<<<<<<< Updated upstream
+=======
+/***/ "async_hooks":
+/*!******************************!*\
+  !*** external "async_hooks" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("async_hooks");
+
+/***/ }),
+
+/***/ "child_process":
+/*!********************************!*\
+  !*** external "child_process" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("child_process");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "diagnostics_channel":
+/*!**************************************!*\
+  !*** external "diagnostics_channel" ***!
+  \**************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("diagnostics_channel");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "import-in-the-middle":
+/*!***************************************!*\
+  !*** external "import-in-the-middle" ***!
+  \***************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("import-in-the-middle");
+
+/***/ }),
+
+/***/ "module":
+/*!*************************!*\
+  !*** external "module" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("module");
+
+/***/ }),
+
+>>>>>>> Stashed changes
 /***/ "next/dist/compiled/next-server/app-page.runtime.dev.js":
 /*!*************************************************************************!*\
   !*** external "next/dist/compiled/next-server/app-page.runtime.dev.js" ***!
@@ -140,6 +384,185 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+<<<<<<< Updated upstream
+=======
+/***/ "node:child_process":
+/*!*************************************!*\
+  !*** external "node:child_process" ***!
+  \*************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:child_process");
+
+/***/ }),
+
+/***/ "node:diagnostics_channel":
+/*!*******************************************!*\
+  !*** external "node:diagnostics_channel" ***!
+  \*******************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:diagnostics_channel");
+
+/***/ }),
+
+/***/ "node:fs":
+/*!**************************!*\
+  !*** external "node:fs" ***!
+  \**************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:fs");
+
+/***/ }),
+
+/***/ "node:http":
+/*!****************************!*\
+  !*** external "node:http" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:http");
+
+/***/ }),
+
+/***/ "node:https":
+/*!*****************************!*\
+  !*** external "node:https" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:https");
+
+/***/ }),
+
+/***/ "node:inspector":
+/*!*********************************!*\
+  !*** external "node:inspector" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:inspector");
+
+/***/ }),
+
+/***/ "node:net":
+/*!***************************!*\
+  !*** external "node:net" ***!
+  \***************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:net");
+
+/***/ }),
+
+/***/ "node:os":
+/*!**************************!*\
+  !*** external "node:os" ***!
+  \**************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:os");
+
+/***/ }),
+
+/***/ "node:path":
+/*!****************************!*\
+  !*** external "node:path" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:path");
+
+/***/ }),
+
+/***/ "node:readline":
+/*!********************************!*\
+  !*** external "node:readline" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:readline");
+
+/***/ }),
+
+/***/ "node:stream":
+/*!******************************!*\
+  !*** external "node:stream" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:stream");
+
+/***/ }),
+
+/***/ "node:tls":
+/*!***************************!*\
+  !*** external "node:tls" ***!
+  \***************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:tls");
+
+/***/ }),
+
+/***/ "node:util":
+/*!****************************!*\
+  !*** external "node:util" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:util");
+
+/***/ }),
+
+/***/ "node:worker_threads":
+/*!**************************************!*\
+  !*** external "node:worker_threads" ***!
+  \**************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:worker_threads");
+
+/***/ }),
+
+/***/ "node:zlib":
+/*!****************************!*\
+  !*** external "node:zlib" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:zlib");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+>>>>>>> Stashed changes
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -149,6 +572,86 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 "use strict";
 module.exports = require("path");
 
+<<<<<<< Updated upstream
+=======
+/***/ }),
+
+/***/ "perf_hooks":
+/*!*****************************!*\
+  !*** external "perf_hooks" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("perf_hooks");
+
+/***/ }),
+
+/***/ "process":
+/*!**************************!*\
+  !*** external "process" ***!
+  \**************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("process");
+
+/***/ }),
+
+/***/ "require-in-the-middle":
+/*!****************************************!*\
+  !*** external "require-in-the-middle" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("require-in-the-middle");
+
+/***/ }),
+
+/***/ "tty":
+/*!**********************!*\
+  !*** external "tty" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "worker_threads":
+/*!*********************************!*\
+  !*** external "worker_threads" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("worker_threads");
+
+>>>>>>> Stashed changes
 /***/ })
 
 };
@@ -158,7 +661,11 @@ module.exports = require("path");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+<<<<<<< Updated upstream
 var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@opentelemetry","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+=======
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/@opentelemetry","vendor-chunks/@sentry","vendor-chunks/next","vendor-chunks/semver","vendor-chunks/color-convert","vendor-chunks/@prisma","vendor-chunks/is-core-module","vendor-chunks/forwarded-parse","vendor-chunks/color-name","vendor-chunks/ansi-styles","vendor-chunks/stacktrace-parser","vendor-chunks/shimmer","vendor-chunks/supports-color","vendor-chunks/function-bind","vendor-chunks/path-parse","vendor-chunks/@swc","vendor-chunks/has-flag","vendor-chunks/hasown","vendor-chunks/next-themes"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fumerbajwa%2FDocuments%2FGitHub%2Fcomputer-repair-shop%2Fcomputer-repair-shop&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+>>>>>>> Stashed changes
 module.exports = __webpack_exports__;
 
 })();
