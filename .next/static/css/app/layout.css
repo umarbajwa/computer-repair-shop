@@ -1,51 +1,27 @@
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Geist","arguments":[{"variable":"--font-geist-sans","subsets":["latin"]}],"variableName":"geistSans"} ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/* latin-ext */
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src/app/layout.tsx","import":"","arguments":[{"src":"./fonts/GeistVF.woff","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"geistSans"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url(/_next/static/media/ba015fad6dcf6784-s.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url(/_next/static/media/569ce4b8f30dc480-s.p.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: 'Geist Fallback';src: local("Arial");ascent-override: 95.94%;descent-override: 28.16%;line-gap-override: 0.00%;size-adjust: 104.76%
-}.__className_4d318d {font-family: 'Geist', 'Geist Fallback';font-style: normal
-}.__variable_4d318d {--font-geist-sans: 'Geist', 'Geist Fallback'
+font-family: 'geistSans';
+src: url(/_next/static/media/4473ecc91f70f139-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: 'geistSans Fallback';src: local("Arial");ascent-override: 85.83%;descent-override: 20.52%;line-gap-override: 9.33%;size-adjust: 107.19%
+}.__className_1e4310 {font-family: 'geistSans', 'geistSans Fallback'
+}.__variable_1e4310 {--font-geist-sans: 'geistSans', 'geistSans Fallback'
 }
 
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Geist_Mono","arguments":[{"variable":"--font-geist-mono","subsets":["latin"]}],"variableName":"geistMono"} ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/* latin-ext */
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src/app/layout.tsx","import":"","arguments":[{"src":"./fonts/GeistMonoVF.woff","variable":"--font-geist-mono","weight":"100 900"}],"variableName":"geistMono"} ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
-  font-family: 'Geist Mono';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url(/_next/static/media/747892c23ea88013-s.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Geist Mono';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url(/_next/static/media/93f479601ee12b01-s.p.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: 'Geist Mono Fallback';src: local("Arial");ascent-override: 74.67%;descent-override: 21.92%;line-gap-override: 0.00%;size-adjust: 134.59%
-}.__className_ea5f4b {font-family: 'Geist Mono', 'Geist Mono Fallback';font-style: normal
-}.__variable_ea5f4b {--font-geist-mono: 'Geist Mono', 'Geist Mono Fallback'
+font-family: 'geistMono';
+src: url(/_next/static/media/463dafcda517f24f-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: 'geistMono Fallback';src: local("Arial");ascent-override: 69.97%;descent-override: 16.73%;line-gap-override: 7.61%;size-adjust: 131.49%
+}.__className_c3aa02 {font-family: 'geistMono', 'geistMono Fallback'
+}.__variable_c3aa02 {--font-geist-mono: 'geistMono', 'geistMono Fallback'
 }
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
@@ -104,10 +80,6 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-5xl: 64rem;
-<<<<<<< Updated upstream
-    --text-sm: 0.875rem;
-    --text-sm--line-height: calc(1.25 / 0.875);
-=======
     --container-7xl: 80rem;
     --text-xs: 0.75rem;
     --text-xs--line-height: calc(1 / 0.75);
@@ -115,7 +87,6 @@
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
->>>>>>> Stashed changes
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-4xl: 2.25rem;
@@ -124,10 +95,7 @@
     --text-6xl--line-height: 1;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
-<<<<<<< Updated upstream
-=======
     --tracking-widest: 0.1em;
->>>>>>> Stashed changes
     --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -286,14 +254,6 @@
   }
 }
 @layer utilities {
-<<<<<<< Updated upstream
-  .collapse {
-    visibility: collapse;
-  }
-  .visible {
-    visibility: visible;
-  }
-=======
   .pointer-events-none {
     pointer-events: none;
   }
@@ -327,7 +287,6 @@
     clip: auto;
     white-space: normal;
   }
->>>>>>> Stashed changes
   .absolute {
     position: absolute;
   }
@@ -343,8 +302,6 @@
   .sticky {
     position: sticky;
   }
-<<<<<<< Updated upstream
-=======
   .-inset-1 {
     inset: calc(var(--spacing) * -1);
   }
@@ -366,7 +323,6 @@
   .z-50 {
     z-index: 50;
   }
->>>>>>> Stashed changes
   .\!container {
     width: 100% !important;
     @media (width >= 40rem) {
@@ -403,11 +359,6 @@
       max-width: 96rem;
     }
   }
-<<<<<<< Updated upstream
-  .mx-auto {
-    margin-inline: auto;
-  }
-=======
   .m-0 {
     margin: calc(var(--spacing) * 0);
   }
@@ -429,7 +380,6 @@
   .ml-auto {
     margin-left: auto;
   }
->>>>>>> Stashed changes
   .block {
     display: block;
   }
@@ -439,12 +389,9 @@
   .flex {
     display: flex;
   }
-<<<<<<< Updated upstream
-=======
   .flow-root {
     display: flow-root;
   }
->>>>>>> Stashed changes
   .grid {
     display: grid;
   }
@@ -460,11 +407,6 @@
   .inline-flex {
     display: inline-flex;
   }
-<<<<<<< Updated upstream
-  .table {
-    display: table;
-  }
-=======
   .inline-grid {
     display: inline-grid;
   }
@@ -513,7 +455,6 @@
     width: calc(var(--spacing) * 4);
     height: calc(var(--spacing) * 4);
   }
->>>>>>> Stashed changes
   .size-9 {
     width: calc(var(--spacing) * 9);
     height: calc(var(--spacing) * 9);
@@ -527,29 +468,6 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
-<<<<<<< Updated upstream
-  .h-dvh {
-    height: 100dvh;
-  }
-  .w-4\/5 {
-    width: calc(4/5 * 100%);
-  }
-  .max-w-5xl {
-    max-width: var(--container-5xl);
-  }
-  .flex-shrink {
-    flex-shrink: 1;
-  }
-  .shrink-0 {
-    flex-shrink: 0;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .transform {
-    transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
-  }
-=======
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
@@ -561,6 +479,9 @@
   }
   .h-px {
     height: 1px;
+  }
+  .h-screen {
+    height: 100vh;
   }
   .max-h-\(--radix-dropdown-menu-content-available-height\) {
     max-height: var(--radix-dropdown-menu-content-available-height);
@@ -638,18 +559,12 @@
     --tw-pinch-zoom: pinch-zoom;
     touch-action: var(--tw-pan-x,) var(--tw-pan-y,) var(--tw-pinch-zoom,);
   }
->>>>>>> Stashed changes
   .resize {
     resize: both;
   }
   .flex-col {
     flex-direction: column;
   }
-<<<<<<< Updated upstream
-  .items-center {
-    align-items: center;
-  }
-=======
   .flex-wrap {
     flex-wrap: wrap;
   }
@@ -659,7 +574,6 @@
   .justify-between {
     justify-content: space-between;
   }
->>>>>>> Stashed changes
   .justify-center {
     justify-content: center;
   }
@@ -669,17 +583,12 @@
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
-<<<<<<< Updated upstream
-  .rounded-md {
-    border-radius: calc(var(--radius) - 2px);
-  }
-  .rounded-xl {
-    border-radius: calc(var(--radius) + 4px);
-  }
-=======
   .space-y-reverse {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 1;
@@ -789,13 +698,10 @@
   .rounded-bl {
     border-bottom-left-radius: 0.25rem;
   }
->>>>>>> Stashed changes
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-<<<<<<< Updated upstream
-=======
   .border-x {
     border-inline-style: var(--tw-border-style);
     border-inline-width: 1px;
@@ -828,7 +734,6 @@
     border-left-style: var(--tw-border-style);
     border-left-width: 1px;
   }
->>>>>>> Stashed changes
   .bg-background {
     background-color: var(--background);
   }
@@ -838,11 +743,6 @@
   .bg-black\/90 {
     background-color: color-mix(in oklab, var(--color-black) 90%, transparent);
   }
-<<<<<<< Updated upstream
-  .bg-destructive {
-    background-color: var(--destructive);
-  }
-=======
   .bg-border {
     background-color: var(--border);
   }
@@ -852,7 +752,6 @@
   .bg-popover {
     background-color: var(--popover);
   }
->>>>>>> Stashed changes
   .bg-primary {
     background-color: var(--primary);
   }
@@ -868,11 +767,6 @@
   .bg-center {
     background-position: center;
   }
-<<<<<<< Updated upstream
-  .p-12 {
-    padding: calc(var(--spacing) * 12);
-  }
-=======
   .bg-repeat {
     background-repeat: repeat;
   }
@@ -891,7 +785,6 @@
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
->>>>>>> Stashed changes
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -901,16 +794,14 @@
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
-<<<<<<< Updated upstream
-  .py-2 {
-    padding-block: calc(var(--spacing) * 2);
-  }
-=======
   .py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
   }
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
@@ -918,9 +809,12 @@
   .pl-8 {
     padding-left: calc(var(--spacing) * 8);
   }
->>>>>>> Stashed changes
   .text-center {
     text-align: center;
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
   .text-4xl {
     font-size: var(--text-4xl);
@@ -930,8 +824,6 @@
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
   }
-<<<<<<< Updated upstream
-=======
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
@@ -940,7 +832,6 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
->>>>>>> Stashed changes
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -949,11 +840,6 @@
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
   }
-<<<<<<< Updated upstream
-  .whitespace-nowrap {
-    white-space: nowrap;
-  }
-=======
   .tracking-widest {
     --tw-tracking: var(--tracking-widest);
     letter-spacing: var(--tracking-widest);
@@ -976,7 +862,6 @@
   .text-popover-foreground {
     color: var(--popover-foreground);
   }
->>>>>>> Stashed changes
   .text-primary {
     color: var(--primary);
   }
@@ -989,11 +874,6 @@
   .text-white {
     color: var(--color-white);
   }
-<<<<<<< Updated upstream
-  .lowercase {
-    text-transform: lowercase;
-  }
-=======
   .capitalize {
     text-transform: capitalize;
   }
@@ -1003,15 +883,12 @@
   .normal-case {
     text-transform: none;
   }
->>>>>>> Stashed changes
   .uppercase {
     text-transform: uppercase;
   }
   .italic {
     font-style: italic;
   }
-<<<<<<< Updated upstream
-=======
   .not-italic {
     font-style: normal;
   }
@@ -1059,7 +936,6 @@
   .overline {
     text-decoration-line: overline;
   }
->>>>>>> Stashed changes
   .underline {
     text-decoration-line: underline;
   }
@@ -1070,19 +946,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-<<<<<<< Updated upstream
-=======
   .subpixel-antialiased {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
   }
->>>>>>> Stashed changes
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-<<<<<<< Updated upstream
-=======
   .shadow-lg {
     --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -1091,13 +962,10 @@
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
->>>>>>> Stashed changes
   .shadow-xs {
     --tw-shadow: 0 1px 2px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.05));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-<<<<<<< Updated upstream
-=======
   .ring {
     --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -1114,7 +982,6 @@
       outline-offset: 2px;
     }
   }
->>>>>>> Stashed changes
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
@@ -1123,11 +990,6 @@
     --tw-blur: blur(8px);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
-<<<<<<< Updated upstream
-  .filter {
-    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-  }
-=======
   .drop-shadow {
     --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow( 0 1px 1px rgb(0 0 0 / 0.06));
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
@@ -1167,7 +1029,6 @@
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
   }
->>>>>>> Stashed changes
   .backdrop-filter {
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
@@ -1194,14 +1055,6 @@
     --tw-outline-style: none;
     outline-style: none;
   }
-<<<<<<< Updated upstream
-  .paused {
-    animation-play-state: paused;
-  }
-  .running {
-    animation-play-state: running;
-  }
-=======
   .select-none {
     -webkit-user-select: none;
     user-select: none;
@@ -1232,7 +1085,6 @@
   .zoom-out {
     --tw-exit-scale: 0;
   }
->>>>>>> Stashed changes
   .hover\:bg-accent {
     &:hover {
       @media (hover: hover) {
@@ -1275,8 +1127,6 @@
       }
     }
   }
-<<<<<<< Updated upstream
-=======
   .focus\:bg-accent {
     &:focus {
       background-color: var(--accent);
@@ -1287,7 +1137,6 @@
       color: var(--accent-foreground);
     }
   }
->>>>>>> Stashed changes
   .focus-visible\:border-ring {
     &:focus-visible {
       border-color: var(--ring);
@@ -1344,8 +1193,6 @@
       --tw-ring-color: color-mix(in oklab, var(--destructive) 20%, transparent);
     }
   }
-<<<<<<< Updated upstream
-=======
   .data-\[disabled\]\:pointer-events-none {
     &[data-disabled] {
       pointer-events: none;
@@ -1445,7 +1292,6 @@
       display: block;
     }
   }
->>>>>>> Stashed changes
   .sm\:max-w-96 {
     @media (width >= 40rem) {
       max-width: calc(var(--spacing) * 96);
@@ -1463,8 +1309,6 @@
       line-height: var(--tw-leading, var(--text-6xl--line-height));
     }
   }
-<<<<<<< Updated upstream
-=======
   .dark\:scale-0 {
     &:is(.dark *) {
       --tw-scale-x: 0%;
@@ -1491,7 +1335,6 @@
       rotate: 0deg;
     }
   }
->>>>>>> Stashed changes
   .dark\:border-input {
     &:is(.dark *) {
       border-color: var(--input);
@@ -1539,8 +1382,6 @@
       }
     }
   }
-<<<<<<< Updated upstream
-=======
   .dark\:data-\[variant\=destructive\]\:focus\:bg-destructive\/20 {
     &:is(.dark *) {
       &[data-variant="destructive"] {
@@ -1550,7 +1391,6 @@
       }
     }
   }
->>>>>>> Stashed changes
   .\[\&_svg\]\:pointer-events-none {
     & svg {
       pointer-events: none;
@@ -1567,8 +1407,6 @@
       height: calc(var(--spacing) * 4);
     }
   }
-<<<<<<< Updated upstream
-=======
   .\[\&_svg\:not\(\[class\*\=\'text-\'\]\)\]\:text-muted-foreground {
     & svg:not([class*='text-']) {
       color: var(--muted-foreground);
@@ -1583,7 +1421,6 @@
       }
     }
   }
->>>>>>> Stashed changes
 }
 :root {
   --radius: 0.625rem;
@@ -1662,8 +1499,6 @@
     color: var(--foreground);
   }
 }
-<<<<<<< Updated upstream
-=======
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -1679,7 +1514,6 @@
   inherits: false;
   initial-value: 1;
 }
->>>>>>> Stashed changes
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false;
@@ -1705,8 +1539,6 @@
   inherits: false;
   initial-value: skewY(0);
 }
-<<<<<<< Updated upstream
-=======
 @property --tw-pan-x {
   syntax: "*";
   inherits: false;
@@ -1734,26 +1566,20 @@
   inherits: false;
   initial-value: 0;
 }
->>>>>>> Stashed changes
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
 }
-<<<<<<< Updated upstream
-=======
 @property --tw-divide-y-reverse {
   syntax: "*";
   inherits: false;
   initial-value: 0;
 }
->>>>>>> Stashed changes
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
 }
-<<<<<<< Updated upstream
-=======
 @property --tw-tracking {
   syntax: "*";
   inherits: false;
@@ -1778,7 +1604,6 @@
   syntax: "*";
   inherits: false;
 }
->>>>>>> Stashed changes
 @property --tw-shadow {
   syntax: "*";
   inherits: false;
@@ -1919,8 +1744,6 @@
   syntax: "*";
   inherits: false;
 }
-<<<<<<< Updated upstream
-=======
 @keyframes enter {
   from {
     opacity: var(--tw-enter-opacity,1);
@@ -1933,5 +1756,4 @@
     transform: translate3d(var(--tw-exit-translate-x,0),var(--tw-exit-translate-y,0),0)scale3d(var(--tw-exit-scale,1),var(--tw-exit-scale,1),var(--tw-exit-scale,1))rotate(var(--tw-exit-rotate,0));
   }
 }
->>>>>>> Stashed changes
 

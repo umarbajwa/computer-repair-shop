@@ -89,8 +89,6 @@
 /******/ 		};
 /******/ 	})();
 /******/ 	
-<<<<<<< Updated upstream
-=======
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -103,7 +101,6 @@
 /******/ 		};
 /******/ 	})();
 /******/ 	
->>>>>>> Stashed changes
 /******/ 	/* webpack/runtime/create fake namespace object */
 /******/ 	(() => {
 /******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
@@ -193,11 +190,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-<<<<<<< Updated upstream
-/******/ 		__webpack_require__.h = () => ("2b6813686fbf6d60")
-=======
-/******/ 		__webpack_require__.h = () => ("a81affc3fec7d4e9")
->>>>>>> Stashed changes
+/******/ 		__webpack_require__.h = () => ("67adcbc1823b7e8f")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1410,14 +1403,11 @@
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
 /******/ 	
-<<<<<<< Updated upstream
-=======
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
->>>>>>> Stashed changes
 /************************************************************************/
 /******/ 	
 /******/ 	// module cache are used so entry inlining is disabled
