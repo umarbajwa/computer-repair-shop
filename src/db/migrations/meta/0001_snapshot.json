@@ -1,6 +1,6 @@
 {
-  "id": "f89ce731-6d23-44b5-bfa7-d1dae63a96d8",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "acc883bc-34cc-4809-b18d-0494b8ff6b9d",
+  "prevId": "f89ce731-6d23-44b5-bfa7-d1dae63a96d8",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -40,6 +40,12 @@
         },
         "address1": {
           "name": "address1",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "address2": {
+          "name": "address2",
           "type": "varchar",
           "primaryKey": false,
           "notNull": false

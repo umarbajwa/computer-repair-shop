@@ -1,9 +1,10 @@
 import { HomeIcon, File, UsersRound, LogOut } from 'lucide-react';
 import Link from 'next/link';
 import { LogoutLink } from '@kinde-oss/kinde-auth-nextjs/components';
-import { Button } from "@/components/ui/button";
+
+import { Button } from '@/components/ui/button';
 import { NavButton } from '@/components/NavButton';
-import  { ModeToggle } from '@/components/ModeToggle';
+import { ModeToggle } from '@/components/ModeToggle';
 
 export function Header() {
     return (
@@ -34,7 +35,7 @@ export function Header() {
                         size="icon"
                         aria-label="LogOut"
                         title="LogOut"
-                        className='rounded-full'
+                        className="rounded-full"
                         asChild
                     >
                         <LogoutLink>

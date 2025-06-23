@@ -7,7 +7,7 @@ export const metadata = {
 export default function NotFound() {
     return (
         <div className="px-2 w-full">
-            <div className="mx-auto py-4 flex flex-col justify-center h-screen items-center gap-4 ">
+            <div className="mx-auto py-4 flex flex-col justify-center items-center gap-4">
                 <h2 className="text-2xl">Page Not Found</h2>
                 <Image
                     className="m-0 rounded-xl"

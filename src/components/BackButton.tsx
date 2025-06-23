@@ -10,19 +10,16 @@ type Props = {
     variant?: "default" | "destructive" | "outline" | "secondary" | "ghost" | "link" | null | undefined,
 } & ButtonHTMLAttributes<HTMLButtonElement>
 
-export function BackButton( 
-    {title, className, variant, ...props} : Props
+export function BackButton(
+    { title, variant, className, ...props }: Props
 ) {
-    const router = useRouter();
-
+    const router = useRouter()
     return (
         <Button
-            className={className}
             variant={variant}
+            className={className}
             onClick={() => router.back()}
             title={title}
-        >
-            {title}
-        </Button>
+        >{title}</Button>
     )
 }
